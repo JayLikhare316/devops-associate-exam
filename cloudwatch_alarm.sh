@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Replace INSTANCE_ID with your actual EC2 instance ID after terraform apply
-# You can get this from terraform output or AWS Console
 INSTANCE_ID="i-0123456789abcdef0"
 
 aws cloudwatch put-metric-alarm \
