@@ -1,7 +1,3 @@
-# provider "aws" {
-#   region = "us-east-1"  # You can change this to your preferred region
-# }
-
 resource "aws_s3_bucket" "devops_bucket" {
   bucket = "devops-assoc-bucket"
   
